@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Oxanium', cursive;
+    background-color: #aadbef;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 3px black;
+    color:white;
+    letter-spacing: 3px;
+    margin-bottom: 7%;
+    margin-top: 7%;
+}
+
+
+.card_container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 50px;
+   
+}
+
+.card{
+   background-color: #e9e2e2ef;
+   padding: 16px;
+   box-sizing: border-box;
+   margin-bottom: 16px;
+   width: 280px;
+}
+
+.tamanho{
+box-sizing: border-box;
+width: 250px;
+height: 130px;
+display: block;
+   
+}
+
+p{
+    text-align: center;
+
+}
+
+@media (max-width: 390) {
+    .card_container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
